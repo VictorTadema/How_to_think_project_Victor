@@ -1,8 +1,3 @@
-for bier in ["heineken", "grolsch", "hertogjan", "bavje"]:
-    smaak = "Ik heb zin in " + bier + ". Das toch lekker man"
-    print(smaak)
-
-
 
 import turtle
 window = turtle.Screen()
