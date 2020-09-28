@@ -24,9 +24,10 @@ jan.penup()
 jan.right(105)
 jan.forward(105)
 jan.pendown()
+
 colors1 = ['yellow', 'orange', 'red', 'blue', 'green']
 
-for _ in range(60):
+for element in range(60):
     jan.color(colors1[element % 5])
     jan.left(30)
     jan.forward(70)
