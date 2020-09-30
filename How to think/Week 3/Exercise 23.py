@@ -21,7 +21,7 @@ for number in numbers:
 print (tot2)
 
 # Ex. 26
-ExSen = "Type in your words"
+ExSen = "Type in your words fagot"
 Count1 = 0
 for word in map(len, ExSen.split()):
     if word == 5:
