@@ -22,6 +22,7 @@ def draw_square(animal, size):
 
 window = turtle.Screen()
 window.bgcolor("lightgreen")
+
 bavje = turtle.Turtle()
 bavje.color("pink")
 bavje.pensize(5)
