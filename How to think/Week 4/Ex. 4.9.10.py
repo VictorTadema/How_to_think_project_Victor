@@ -3,46 +3,19 @@
 
 import turtle
 
-def draw_five_stars(animal, length):
-    for _ in range(6):
+def draw_star(animal, length):
+    for _ in range(5):
         animal.right(144)
         animal.forward(length)
-    animal.right(180)
-    animal.penup()
-    animal.forward(350)
-    animal.pendown()
-    animal.right(36)
-    for _ in range(6):
-        animal.right(144)
-        animal.forward(length)
-    animal.right(180)
-    animal.penup()
-    animal.forward(350)
-    animal.pendown()
-    animal.right(36)
-    for _ in range(6):
-        animal.right(144)
-        animal.forward(length)
-    animal.right(180)
-    animal.penup()
-    animal.forward(350)
-    animal.pendown()
-    animal.right(36)
-    for _ in range(6):
-        animal.right(144)
-        animal.forward(length)
-    animal.right(180)
-    animal.penup()
-    animal.forward(350)
-    animal.pendown()
-    animal.right(36)
-
-
-
 
 window = turtle.Screen()
-window.bgcolor("lightgreen")
 bavje = turtle.Turtle()
-draw_five_stars(bavje, 100)
+
+for _ in range(5):
+    draw_star(bavje, 100)
+    bavje.penup()
+    bavje.forward(300)
+    bavje.left(144)
+    bavje.pendown()
 
 window.mainloop()

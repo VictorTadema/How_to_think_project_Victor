@@ -4,7 +4,7 @@
 import turtle
 
 def draw_star(animal, length):
-    for _ in range(6):
+    for _ in range(5):
         animal.right(144)
         animal.forward(length)
 

@@ -4,6 +4,6 @@ def sum_to(n):
         a += i
     return a
 
-answer = int(input("What value to sum?"))
-print(sum_to(answer))
+
+print(sum_to(10))
 
