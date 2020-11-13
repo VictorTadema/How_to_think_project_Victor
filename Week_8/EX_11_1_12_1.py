@@ -6,8 +6,8 @@ class Point:
 
     def __init__(self, x=0, y=0):
         """ Create a new point at the origin """
-        self.x = 0
-        self.y = 0
+        self.x = 3
+        self.y = 8
 
     def __str__(self):
         return "({}, {})".format(self.x, self.y)
