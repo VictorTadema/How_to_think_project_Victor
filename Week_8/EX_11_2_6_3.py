@@ -1,3 +1,6 @@
+# Write a flip method in the Rectangle class that swaps the width and the height of any rectangle instance
+from Week_8.EX_11_1_12_1 import Point
+
 class Rectangle:
     """ A class to manufacture rectangle objects """
 
@@ -10,6 +13,10 @@ class Rectangle:
     def __str__(self):
         return "({0}, {1}, {2})".format(self.corner, self.width, self.height)
 
-    def contains(self):
-        #no idea what to do then...
+    def flip(self):
+        (self.width, self.height) = (self.height, self.width)
 
+r = Rectangle(Point(100, 50), 10, 5)
+print(r.width == 10 and r.height == 5)
+r.flip()
+print(r.width == 5 and r.height == 10)

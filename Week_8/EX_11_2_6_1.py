@@ -1,6 +1,10 @@
-# Add a method area to the Rectangle class that returns the area of any instance:
+# Add a method area to the Rectangle class that returns
+# the area of any instance:
 # r = Rectangle(Point(0, 0), 10, 5)
 # test(r.area() == 50)
+from Week_8.EX_11_1_12_1 import Point
+
+
 
 class Rectangle:
     """ A class to manufacture rectangle objects """
@@ -17,5 +21,7 @@ class Rectangle:
     def area(self):
         return(self.height * self.width)
 
+r = Rectangle(Point(0, 0), 10, 5)
+print(r.area() == 50)
 
 

@@ -3,8 +3,8 @@ class Point:
 
     def __init__(self, x=0, y=0):
         """ Create a new point at the origin """
-        self.x = 2
-        self.y = 0
+        self.x = x
+        self.y = y
 
     def __str__(self):
         return "({}, {})".format(self.x, self.y)
@@ -24,4 +24,4 @@ class Point:
 # target.y = 10
 
 
-# print("The points are", point_p.get_line_to(target))
+print("The points are", Point(4, 11).get_line_to(Point(6, 15)))

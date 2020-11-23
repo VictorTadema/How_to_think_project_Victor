@@ -12,10 +12,9 @@ class Point:
         return "({}, {})".format(self.x, self.y)
 
     def reflect_x(self):
-        var1 = self.x
-        var2 = self.y - 2*self.y
-        return "({}, {})".format(var1, var2)
+        return(self.x, -1 * self.y)
 
 
 
 
+print(Point(3, 5).reflect_x())
